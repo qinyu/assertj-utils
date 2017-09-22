@@ -6,7 +6,7 @@
 
     <groupId>me.qinyu</groupId>
     <artifactId>assetj-utils</artifactId>
-    <version>0.9</version>
+    <version>0.9.1</version>
 
     <dependencies>
         <dependency>

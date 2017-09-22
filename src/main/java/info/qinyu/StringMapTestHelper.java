@@ -6,6 +6,7 @@ import org.assertj.core.api.SoftAssertions;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+import java.util.HashMap;
 import java.util.Map;
 
 public class StringMapTestHelper<V> {
@@ -47,6 +48,10 @@ public class StringMapTestHelper<V> {
 
     public static <V, I> StringMapTestHelper<V> helper(Map<String, V> map) {
         return new StringMapTestHelper<V>(map);
+    }
+
+    public static <V, I> StringMapTestHelper<V> helper() {
+        return new StringMapTestHelper<V>(new HashMap<String, V>());
     }
 
 }
