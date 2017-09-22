@@ -1,4 +1,4 @@
-package info.qinyu;
+package me.qinyu;
 
 import org.assertj.core.api.Assertions;
 import org.assertj.core.api.SoftAssertions;
