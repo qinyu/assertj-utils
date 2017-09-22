@@ -6,7 +6,7 @@
 
     <groupId>me.qinyu</groupId>
     <artifactId>assetj-utils</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.9</version>
 
     <dependencies>
         <dependency>
@@ -21,4 +21,12 @@
             <version>3.8.0</version>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>bintray</id>
+            <name>qinyu-maven</name>
+            <url>https://api.bintray.com/maven/qinyu/maven/assertj-utils/;publish=1</url>
+        </repository>
+    </distributionManagement>
 </project>
